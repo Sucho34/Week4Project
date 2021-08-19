@@ -26,7 +26,7 @@ function Counter(props) {
       <button className="buttonStyleLg" onClick={times2}>x2</button> 
     </div>
     <div>
-      <button className="buttonStyleLg" onClick={div2}>/2</button> 
+      <button className="buttonStyleLg" onClick={div2}>÷2</button> 
     </div>
     <div>
       <button className="buttonStyleXlg" onClick={squared}>Squared</button> 

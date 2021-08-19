@@ -17,7 +17,7 @@ class List extends Component {
                 <div>
                 <h3 className="header">List using Map to iterate</h3>
                 <ul>
-                  {this.strings.map((item) => <li className="listColor">{item}</li>)}
+                  {this.strings.map((item, key) => <li className="listColor" >Key: {key} = {item}</li>)}
                 </ul>
             </div>
             )}

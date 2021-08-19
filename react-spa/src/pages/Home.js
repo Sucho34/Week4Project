@@ -4,7 +4,7 @@ import Counter from '../hooks/Counter';
 export const Home = () => {
     return (
         <div>
-            <h1 className="pageHeader">Home</h1>
+            <h1 className="pageHeader">Counter</h1>
             <Counter/>
         </div>
     );

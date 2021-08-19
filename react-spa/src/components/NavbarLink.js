@@ -9,29 +9,29 @@ function NavbarLink() {
    <div>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink exact to="/" className="glow">
             React SPA
           </NavLink>
 
           <ul className="nav-menu">
               <li className="nav-item">
                 <NavLink exact to="/" className="nav-links">
-                   Home
+                   Counter
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink exact to="/projects" className="nav-links">
-                   Projects
+                   List
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink exact to="/about" className="nav-links">
-                   About
+                   Render
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink exact to="/resume" className="nav-links">
-                  Resume
+                  API
                 </NavLink>
               </li>
           </ul>
