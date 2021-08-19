@@ -1,0 +1,21 @@
+.countStyle {
+    margin: 15px;
+    padding: 15px;
+}
+
+.buttonStyle {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.buttonStyleLg {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+}
+
+
+.spacing {
+   margin: 10px;
+}

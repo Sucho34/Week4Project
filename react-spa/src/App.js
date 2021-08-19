@@ -2,9 +2,7 @@ import './App.css';
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import Counter from './hooks/Counter';
 import NavbarLink from './components/NavbarLink';
-import List from './components/List';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Projects } from './pages/Projects';
@@ -27,8 +25,6 @@ function App() {
           </div>
       </Router>
 
-      <Counter/>
-      <List/>
   </div>
   );
 }
