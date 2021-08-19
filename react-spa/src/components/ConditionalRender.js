@@ -14,23 +14,25 @@ class ConditonalRender extends Component {
 
     render(){
         return(
+          <div>
+            {this.state.visible ? <RenderComponent/> : <div>I am hidden</div>}
             <div>
-              {this.state.visible ? <RenderComponent/> : <div>I am hidden</div>}
               <button className="buttonSpace"
                 onClick={() => {
                     this.setState({ visible: false});
                 }} 
               >
-                Hide  
+              Hide  
               </button>  
               <button className="buttonSpace"
                 onClick={() => {
                     this.setState({ visible: true});
                 }}
               >
-                Show
+              Show
               </button>
-            </div>
+              </div>
+          </div>
         )
     }
 }

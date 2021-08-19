@@ -10,11 +10,18 @@
 }
 
 .buttonStyleLg {
+    margin: 5px;
     height: 30px;
     width: 60px;
     text-align: center;
 }
 
+.buttonStyleXlg {
+    margin: 5px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
 
 .spacing {
    margin: 10px;
